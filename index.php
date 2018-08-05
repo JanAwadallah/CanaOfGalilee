@@ -1,4 +1,3 @@
-
 <?php
 $servername = "31.22.4.141";
 $username = "canaofga_jan";
@@ -30,7 +29,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
   <title>Cana of Galilee Married Couples Meeting</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
-  <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+  
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  
   <link rel="stylesheet" type="text/css" href="style/style2.css" />
@@ -82,14 +81,14 @@ $conn = new mysqli($servername, $username, $password, $dbname);
   </div>  -->
  
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.php"><img src="style\Cana.jpg" style="width: 100px; height: 50px;"> </a>
+  <a class="navbar-brand" href="index.html"><img src="style\Cana.jpg" style="width: 100px; height: 50px;"> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">Retreat 2018 <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Retreat 2018 <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="RetreatVenue.html">Retreat venue</a>
@@ -129,11 +128,11 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
     <div id="footer">
       <p><a href="index.html">Retreat 2018</a> | <a href="RetreatVenue.html">Retreat venue</a> | <a href="Register.html">Register</a></p>
-              <button type="button" class="btn btn-primary">
+      
+        <button type="button" class="btn btn-primary">
   Visitor <span class="badge badge-light"><?php echo $New_count ?></span>
   <span class="sr-only">unread messages</span>
 </button>
-
 
     </div>
  
